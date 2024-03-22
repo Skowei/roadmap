@@ -82,14 +82,16 @@ użytkownik ->(request) public/index.php -> autoload i instancja aplikacji -> ke
 ![laravel-lifecycle](./../assets/images/laravel-lifecycle.avif)
 
 11. CO NOWEGO W PHP 7.4
+    ```
     - funkcje strzałkowe
     - array spread operator czyli $arr = [...$args]; (jak w js)
     - Null coalocation czyli ?? jeżeli wartość pusta bierze drugą
     - typed properties (public, protected, private zmienne)
     - weak references
-
+    ```
 
 12. CO NOWEGO W PHP 8.0
+    ```
     - union types czyli deklaracja co funkcja zwraca np :void, :string, :int|float,
     - JIT - czas kompilatora
     - nullsafe operator czyli $arg?-> jeżeli puste to zwróci nulla i nie wywali błędu
@@ -104,3 +106,4 @@ użytkownik ->(request) public/index.php -> autoload i instancja aplikacji -> ke
     - datetime z instancji obiektu
     - interfejs stringable dla wsyzstkiego co może używać __toString()
     - str_contains - zamiennik str_post
+    ```
