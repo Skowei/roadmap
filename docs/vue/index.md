@@ -108,3 +108,9 @@ title: "Vue - Roadmap"
 ## CSS / SCSS
 - czym się różnią?
 - podstawowa wiedza z zakresu obu
+- jak utworzyć i używać zmienne
+
+## NPM / YARN
+- podstawowa obsługa
+- jak instalować / usuwać paczki
+- jak zmieniać ich wersje
