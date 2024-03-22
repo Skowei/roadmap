@@ -82,28 +82,28 @@ użytkownik ->(request) public/index.php -> autoload i instancja aplikacji -> ke
 ![laravel-lifecycle](./../assets/images/laravel-lifecycle.avif)
 
 11. CO NOWEGO W PHP 7.4
-    ```
-    - funkcje strzałkowe
-    - array spread operator czyli $arr = [...$args]; (jak w js)
-    - Null coalocation czyli ?? jeżeli wartość pusta bierze drugą
-    - typed properties (public, protected, private zmienne)
-    - weak references
-    ```
+```
+- funkcje strzałkowe
+- array spread operator czyli $arr = [...$args]; (jak w js)
+- Null coalocation czyli ?? jeżeli wartość pusta bierze drugą
+- typed properties (public, protected, private zmienne)
+- weak references
+```
 
 12. CO NOWEGO W PHP 8.0
-    ```
-    - union types czyli deklaracja co funkcja zwraca np :void, :string, :int|float,
-    - JIT - czas kompilatora
-    - nullsafe operator czyli $arg?-> jeżeli puste to zwróci nulla i nie wywali błędu
-    - nazwane argumenty 🙂
-    - atrybuty(adnotacje)
-    - match czyli switch bez breaków,
-    - syntetyczny konstruktor czyli tworzenie zmiennych dla klasy w construct bez deklaracji.
-    - typ statyczny jako wartość zwracana :static
-    - mixed type czyli jeden z podstawowych typów zmiennych
-    -  ::class na obiekcie - zwraca to samo co get_class()
-    - catch bez deklaracji zmiennej $exception, wystarczy samo \Exception
-    - datetime z instancji obiektu
-    - interfejs stringable dla wsyzstkiego co może używać __toString()
-    - str_contains - zamiennik str_post
-    ```
+```
+- union types czyli deklaracja co funkcja zwraca np :void, :string, :int|float,
+- JIT - czas kompilatora
+- nullsafe operator czyli $arg?-> jeżeli puste to zwróci nulla i nie wywali błędu
+- nazwane argumenty 🙂
+- atrybuty(adnotacje)
+- match czyli switch bez breaków,
+- syntetyczny konstruktor czyli tworzenie zmiennych dla klasy w construct bez deklaracji.
+- typ statyczny jako wartość zwracana :static
+- mixed type czyli jeden z podstawowych typów zmiennych
+-  ::class na obiekcie - zwraca to samo co get_class()
+- catch bez deklaracji zmiennej $exception, wystarczy samo \Exception
+- datetime z instancji obiektu
+- interfejs stringable dla wsyzstkiego co może używać __toString()
+- str_contains - zamiennik str_post
+```
