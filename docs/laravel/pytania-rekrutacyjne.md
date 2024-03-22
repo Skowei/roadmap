@@ -27,7 +27,7 @@ pozwala na przechowywanie stanu aplikacji pomiędzy zapytaniami http
 ```
 [S] Single Responsibility Principle (SRP)
     Klasa powinna mieć tylko jedną odpowiedzialność (nigdy nie powinien istnieć więcej niż jeden powód do modyfikacji klasy).
-Możemy rozważyć moduł, który generuje i drukuje raport. Odpowiada on za dwa procesy, a tym samym mogą wystąpić dwa powody do jego modyfikacji. Po pierwsze, może zmienić się treść generowanego raportu, po drugie – format, w jakim jest on drukowany. Zasada pojedynczej odpowiedzialności mówi, że oba te procesy powinny być niezależne i zaimplementowane w postaci dwóch oddzielnych klas lub modułów, które komunikują się ze sobą za pomocą publicznych interfejsów. 
+    Możemy rozważyć moduł, który generuje i drukuje raport. Odpowiada on za dwa procesy, a tym samym mogą wystąpić dwa powody do jego modyfikacji. Po pierwsze, może zmienić się treść generowanego raportu, po drugie – format, w jakim jest on drukowany. Zasada pojedynczej odpowiedzialności mówi, że oba te procesy powinny być niezależne i zaimplementowane w postaci dwóch oddzielnych klas lub modułów, które komunikują się ze sobą za pomocą publicznych interfejsów. 
 ```
 ```
 [O] Open/Closed Principle (OCP)
