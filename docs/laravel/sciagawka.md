@@ -7,7 +7,7 @@ title: "Laravel - Ściągawka"
 
 
 ## Cykl życia zapytania
-![laravel-lifecycle](./../../assets/images/laravel-lifecycle.avif)
+![laravel-lifecycle](./../assets/images/laravel-lifecycle.avif)
 
 
 ## Nazewnictwo

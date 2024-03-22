@@ -11,7 +11,7 @@ title: "Laravel - Roadmap"
 
 
 ## Nazewnictwo
-![nazewnictwo.jpg](/assets/images/laravel_naming_convictions.png)
+![nazewnictwo.jpg](./../assets/images/laravel_naming_convictions.png)
 
 
 ## Routing

@@ -7,4 +7,4 @@ title: "Vue - Ściągawka"
 
 
 ## Cykl życia hooków
-![vue-lifecycle](./../../assets/images/vue-lifecycle.png)
+![vue-lifecycle](./../assets/images/vue-lifecycle.png)
