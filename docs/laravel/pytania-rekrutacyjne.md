@@ -15,7 +15,7 @@ pojęcia: hermetyzacja/enkapsulacja, polimorfizm, dziedziczenie
 2. Jaka jest różnica między klasą abstrakcyjną a interfejsem?
 ```
 z klasy abstrakcyjnej nie można utworzyć obiektu a może jedynie być rozszerzana przez inne klasy
-infercejs jest extendowany przez klasę
+inferce jest extendowany przez klasę
 ```
 
 3. Jak działa sesja?
