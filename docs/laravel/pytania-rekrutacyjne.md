@@ -104,6 +104,6 @@ użytkownik ->(request) public/index.php -> autoload i instancja aplikacji -> ke
 - ::class na obiekcie - zwraca to samo co get_class()
 - catch bez deklaracji zmiennej $exception, wystarczy samo \Exception
 - datetime z instancji obiektu
-- interfejs stringable dla wsyzstkiego co może używać __toString()
+- interfejs stringable dla wszystkiego co może używać __toString()
 - str_contains - zamiennik str_post
 ```
