@@ -27,10 +27,12 @@ pozwala na przechowywanie stanu aplikacji pomiędzy zapytaniami http
 ```
 [S] Single Responsibility Principle (SRP)
     Klasa powinna mieć tylko jedną odpowiedzialność (nigdy nie powinien istnieć więcej niż jeden powód do modyfikacji klasy).
+
+Możemy rozważyć moduł, który generuje i drukuje raport. Odpowiada on za dwa procesy, a tym samym mogą wystąpić dwa powody do jego modyfikacji. Po pierwsze, może zmienić się treść generowanego raportu, po drugie – format, w jakim jest on drukowany. Zasada pojedynczej odpowiedzialności mówi, że oba te procesy powinny być niezależne i zaimplementowane w postaci dwóch oddzielnych klas lub modułów, które komunikują się ze sobą za pomocą publicznych interfejsów. 
 ```
 ```
 [O] Open/Closed Principle (OCP)
-    Klasy (encje) powinny być otwarte na rozszerzenia i zamknięte na modyfikacje.
+    Elementy systemu takie, jak klasy, moduły, funkcje itd. powinny być otwarte na rozszerzenie, ale zamknięte na modyfikacje[1]. Oznacza to, iż można zmienić zachowanie takiego elementu bez zmiany jego kodu. Jest to szczególnie ważne w środowisku produkcyjnym, gdzie zmiany kodu źródłowego mogą być niewskazane i powodować ryzyko wprowadzenia błędu. Program, który trzyma się tej zasady, nie wymaga zmian w kodzie, więc nie jest narażony na powyższe ryzyko. 
 ```
 ```
 [L] Liskov Substitution Principle (LSP)
