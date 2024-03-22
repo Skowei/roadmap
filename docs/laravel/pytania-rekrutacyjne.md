@@ -101,7 +101,7 @@ użytkownik ->(request) public/index.php -> autoload i instancja aplikacji -> ke
 - syntetyczny konstruktor czyli tworzenie zmiennych dla klasy w construct bez deklaracji.
 - typ statyczny jako wartość zwracana :static
 - mixed type czyli jeden z podstawowych typów zmiennych
--  ::class na obiekcie - zwraca to samo co get_class()
+- ::class na obiekcie - zwraca to samo co get_class()
 - catch bez deklaracji zmiennej $exception, wystarczy samo \Exception
 - datetime z instancji obiektu
 - interfejs stringable dla wsyzstkiego co może używać __toString()
