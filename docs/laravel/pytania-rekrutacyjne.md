@@ -82,26 +82,25 @@ użytkownik ->(request) public/index.php -> autoload i instancja aplikacji -> ke
 ![laravel-lifecycle](./../assets/images/laravel-lifecycle.avif)
 
 11. CO NOWEGO W PHP 7.4
-    1. funkcje strzałkowe
-        array spread operatore czyli $arr = [...$args]; (jak w js)
-    2. Null coalocation czyli ?? jeżeli wartość pusta bierze drugą
-    3. typed properties (public, protected, private zmienne)
-    4. weak references
+    - funkcje strzałkowe
+    - array spread operator czyli $arr = [...$args]; (jak w js)
+    - Null coalocation czyli ?? jeżeli wartość pusta bierze drugą
+    - typed properties (public, protected, private zmienne)
+    - weak references
 
 
 12. CO NOWEGO W PHP 8.0
-    1. union types
-    czyli deklaracja co funkcja zwraca np :void, :string, :int|float,
-    2. JIT - czas kompilatora
-    3. nullsafe operator czyli $arg?-> jeżeli puste to zwróci nulla i nie wywali błędu
-    4. nazwane argumenty 🙂
-    5. atrybuty(adnotacje)
-    6. match czyli switch bez breaków,
-    7. syntetyczny konstruktor czyli tworzenie zmiennych dla klasy w construct bez deklaracji.
-    8. typ statyczny jako wartość zwracana :static
-    9. mixed type czyli jeden z podstawowych typów zmiennych
-    10. ::class na obiekcie - zwraca to samo co get_class()
-    11. catch bez deklaracji zmiennej $exception, wystarczy samo \Exception
-    12. datetime z instancji obiektu
-    13. interfejs stringable dla wsyzstkiego co może używać __toString()
-    14. str_contains - zamiennik str_post
+    - union types czyli deklaracja co funkcja zwraca np :void, :string, :int|float,
+    - JIT - czas kompilatora
+    - nullsafe operator czyli $arg?-> jeżeli puste to zwróci nulla i nie wywali błędu
+    - nazwane argumenty 🙂
+    - atrybuty(adnotacje)
+    - match czyli switch bez breaków,
+    - syntetyczny konstruktor czyli tworzenie zmiennych dla klasy w construct bez deklaracji.
+    - typ statyczny jako wartość zwracana :static
+    - mixed type czyli jeden z podstawowych typów zmiennych
+    -  ::class na obiekcie - zwraca to samo co get_class()
+    - catch bez deklaracji zmiennej $exception, wystarczy samo \Exception
+    - datetime z instancji obiektu
+    - interfejs stringable dla wsyzstkiego co może używać __toString()
+    - str_contains - zamiennik str_post
