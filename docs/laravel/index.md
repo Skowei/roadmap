@@ -1,17 +1,20 @@
 ---
-title: "Laravel Roadmap"
+title: "Laravel - Roadmap"
 ---
 
+
 # Junior
+
 
 ## PSR
 - Co to jest i dlaczego jest stosowany
 
+
 ## Nazewnictwo
-![nazewnictwo.jpg](../../assets/images/laravel_naming_convictions.png)
+![nazewnictwo.jpg](./../../assets/images/laravel_naming_convictions.png)
+
 
 ## Routing
-
 - [DOC](https://laravel.com/docs/11.x/routing)
 - Nazewnictwo
 - Parametry
@@ -20,8 +23,8 @@ title: "Laravel Roadmap"
 - Resource
 - Metody (GET, Post, PUT, DELETE)
 
-## Kontrolery
 
+## Kontrolery
 - [DOC](https://laravel.com/docs/11.x/controllers)
 - Zwracanie widoku
   - z danymi
@@ -38,8 +41,8 @@ unikatowy
 - Struktura Try/Catch
   -  wydzielenie kodu do serwisów (serwis to osobny plik np. ArticleService który zawiera klasę o takiej nazwie, odpowiada za wyjęcie funkcjonalności z kontrolera, tak żeby struktura kontrolera została jak najbardziej pomniejszona i wywoływała głównie funkcje serwisu bądź zwracała ich errory poprzez catch)
 
-## Database
 
+## Database
 - [DOC](https://laravel.com/docs/11.x/migrations)
 - Migracje
 - Nazewnictwo migracji/tabel
@@ -50,8 +53,8 @@ unikatowy
 - Edytowanie migracji
   - dodawanie, kasowanie, edytowanie istniejacych kolumn bądź tabeli
 
-## Modele
 
+## Modele
 - [DOC](https://laravel.com/docs/11.x/eloquent%23eloquent-model-conventions)
 - Czym jest model, jaką pełni funkcję i jak koresponduje z baza danych/migracją
 - Nazewnictwo
@@ -66,34 +69,39 @@ unikatowy
 - Traity
 - Scope globalne i lokalne
 
-## Seedy
 
+## Seedy
 - [DOC](https://laravel.com/docs/11.x/seeding)
 - Nazewnictwo
 - Wywoływanie konkretnego / wszystkich na raz
 - Faker
 
-## Tinker
 
+## Tinker
 - [DOC](https://laravel.com/docs/11.x/artisan#tinker)
 - Co to jest i kiedy używamy
 
+
 ## Env / Config
 - [DOC](https://laravel.com/docs/11.x/configuration#environment-configuration)
+
 
 ## Middleware
 - [DOC](https://laravel.com/docs/11.x/middleware)
 - Wywoływane / aplikowane do każdego routa web/api
 - Wyciąganie danych requesta / routa w middleware
 
+
 ## Guardy
 - Dodawanie nowego np: admin
+
 
 ## Auth
 - [DOC](https://laravel.com/docs/11.x/authentication)
 - Tworzenie i kasowanie sesji
 - Wyciąganie danych użytkownika
 - Api
+
 
 ## Blade
 - [DOC](https://laravel.com/docs/11.x/blade)
@@ -107,15 +115,18 @@ unikatowy
   - Czym różni się metoda GET od POST oraz kiedy używamy POST a PUT
   - Dzielenie blady na komponenty (@include, @section, ...)
 
+
 ## Maile
 - [DOC](https://laravel.com/docs/11.x/mail)
 - Tworzenie i wysyłanie maili
 - Konfiguracja maila w .env
 
+
 ## API
 - Róznica między web a api
 - Jak wygląda struktura zwracanych danych
 - Czym różnią się routy
+
 
 ## Tłumaczenia
 - [DOC](https://laravel.com/docs/11.x/localization)
@@ -127,6 +138,7 @@ unikatowy
 - w przypadku kiedy zwracamy dane kontrolera, jak zwrócisz przetłumaczony status? (np. Article created successfully! – Pomyślnie utworzono artykuł!)
 -  jak dodać nowe tłumaczenia walidacji i je parametryzować
 
+
 ## Pliki
 - [DOC](https://laravel.com/docs/11.x/filesystem)
 - w laravelu bazowo pliki zapisywane są w folderze storage, skąd mamy do wyboru by były
@@ -134,6 +146,7 @@ publiczne bądź prywatne (zwracane przez funkcje kontrolera)
 - jak zapisywać, podmieniać, usuwać oraz zwracać plik
 - co to `storage-link` i co nam zapewnia
 - jak wrzucić plik do `storage`, tak by był dostępny z folderu `public`
+
 
 ## PHP
 - data types
@@ -146,9 +159,11 @@ publiczne bądź prywatne (zwracane przez funkcje kontrolera)
 - namespace
 - traits
 
+
 ## GIT
 - [DOC](https://git-scm.com/docs)
 - podstawowe komendy: `init`, `push`, `pull`, `checkout`, `merge`, `rebase`
+
 
 ## Composer
 - [DOC](https://getcomposer.org/doc/01-basic-usage.md)
